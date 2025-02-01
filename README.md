@@ -1,0 +1,3 @@
+# Unhandled Exception within Groovy Closure
+
+This example showcases a common pitfall when working with closures in Groovy: unhandled exceptions within the closure might not propagate as expected, potentially masking errors. The script includes a `methodWithClosure` function that executes a provided closure. The closure itself throws a `RuntimeException`. However, the exception is not caught or explicitly handled in the main method, leading to unexpected behavior.   The solution provides improved exception handling.
